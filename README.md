@@ -5,8 +5,6 @@ Tutorial for xray desktop (windows 10+) and mobile (android) via V2RayN &amp; V2
 
 > **Навигация**: [Windows 10+](https://github.com/ExTreeMe7/xray-tutorial/blob/main/README.md#v2rayn-windows-10-wiki%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87), [Android](https://github.com/ExTreeMe7/xray-tutorial/blob/main/README.md#v2rayng-android).
 
-> **Навигация**: 
-
 ## xray-core
 [**Xray**](https://github.com/XTLS/Xray-core) — это высокопроизводительный прокси-сервер и платформа для сетевой маршрутизации, форвардинга и обхода блокировок. Xray - форк проекта [V2Ray](https://github.com/v2fly/v2ray-core), с улучшенной архитектурой и новыми функциями для маршрутизации и безопасности.
 
