@@ -3,6 +3,8 @@ Tutorial for xray desktop (windows 10+) and mobile (android) via V2RayN &amp; V2
 
 > **Полезные ссылки**: [H89K](https://t.me/h89k_bot), [Xray](https://github.com/XTLS/Xray-core), [V2Ray](https://github.com/v2fly/v2ray-core), [Vless](https://github.com/XTLS/Xray-core/discussions/3518), [V2RayN](https://github.com/2dust/v2rayN), [V2RayNG](https://github.com/2dust/v2rayNG)
 
+> **Навигация**: 
+
 ## xray-core
 [**Xray**](https://github.com/XTLS/Xray-core) — это высокопроизводительный прокси-сервер и платформа для сетевой маршрутизации, форвардинга и обхода блокировок. Xray - форк проекта [V2Ray](https://github.com/v2fly/v2ray-core), с улучшенной архитектурой и новыми функциями для маршрутизации и безопасности.
 
@@ -57,64 +59,64 @@ V2RayN - прокси-клиент для Windows https://github.com/2dust/v2ray
 
 Запустите приложение *от имени администратора* с помощью файла `v2rayN.exe`, после запуска v2rayN появится в системном трее:
 
-![](image-1.png)
+![](images/image-1.png)
 
 ### Настройки приложения
 v2rayN позволяет персонализировать интерфейс и настроить необходимую конфигурацию:
 
-![](image.png)
+![](images/image.png)
 
 ### Описание функций и кнопок
 * **Enable Tun** - вертуальный сетевой фильтр для перехвата всего трафика.
 
-![alt text](image-16.png)
+![](images/image-16.png)
 
 * **Core mode** - установка режима работы ядра.
 
 > **Clear System Proxy** - очистить системный прокси, фактически выключение прокси для всей системы. **Set System Proxy** - установить системный прокси, активация ядра и маршрутизации в системе, фактически включение локального прокси. **Do not change system proxy** - не изменять системный прокси, автономный режим проксирования который не устанавливается во всей системе а используется при конкретной настройке приложений на использование прокси, например через указание прокси по localhost:mixed-port - `127.0.0.1:10808` в настройках Windows, этот режим требует более пренудительной настройки и не рекомендован. **PAC Mode** - прокси авто-конфигурация, использование скрипта авто-конфигурации, который управляет маршрутизацией.
 
-![alt text](image-17.png)
+![](images/image-17.png)
 
 * **Active rule set** - выбор активного правила маршрутизации.
 
-![alt text](image-18.png)
+![](images/image-18.png)
 
 * **Configuration** - добавление сервера, вставка *Share Link* ссылки, сканирование QR-кода из изображения, ручное добавление конфигурации, групповых политик, цепочек прокси, протоколов.
 
 > Используйте *CTRL + V* для вставки **Share Link**. Поддерживаемые протоколы: *VMess, VLESS, Shadowsocks, Trojan, Hysteria2, WireGuard, SOCKS5, HTTP, TUIC, Anytls*.
 
-![](image-2.png)
+![](images/image-2.png)
 
 * **Subscription Group** - управление подписками, настройка подписок, обновление всех/текущей подписки с помощью прокси и без.
 
-![](image-3.png)
+![](images/image-3.png)
 
 * **Settings** - опции, маршрутизация, днс, конфигурация, горячие клавишы, инструменты, региональные пресеты, архивация и восстановление, локальные файлы.
 
-![](image-4.png)
+![](images/image-4.png)
 
 > **Option Setting** основные настройки
 
-![](image-5.png)
-![](image-6.png)
-![](image-7.png)
-![](image-8.png)
-![](image-9.png)
+![](images/image-5.png)
+![](images/image-6.png)
+![](images/image-7.png)
+![](images/image-8.png)
+![](images/image-9.png)
 
 **Core: basic settings**: установка микс-порта, переключение UDP, Sniffing, изменение логирования. **v2rayN settings**: настройки приложения, автозагрузка, отображение скорости передачи, компоновка UI, дабл-клик для активации, источник Geo-файлов. **System proxy settings**: изменение IP для локальных устройств. **Tun Mode settings**. **Core Type settings**.
 
 > **Routing Setting**
 
-![](image-10.png)
+![](images/image-10.png)
 
 **Domain strategy**: *AsIs* - маршрутизация только по `domain` и `geosite` без DNS, *IPIfNonMatch* - `domain/geosite` маршрутизация с fallback в DNS `ip/geoip`, *IPOnDemand* - `ip/geoip` всегда в DNS.
 * **Help** - обновление приложения, ссылки.
 
-![](image-11.png)
+![](images/image-11.png)
 
 > **V2RayN** - приложение-интерфейс, **Xray** - xray-ядро, **mihomo** - движок необходимый для работы Clash Meta, **sing_box** - движок необходимый для работы Xray/V2Ray, **GeoFiles** - GEO-файлы стран.
 
-![](image-12.png)
+![](images/image-12.png)
 
 * **Reload** - перезапуск ядра.
 * **Promotion** - продвижение рекламы, бесплатные прокси.
@@ -122,38 +124,38 @@ v2rayN позволяет персонализировать интерфейс 
 * **⋮** - изменение темы UI, шрифта, языка.
 > Поддерживаемые языки: zh-Hans (упрощенный китайский язык) zh-Hant (традиционный китайский язык), en (английский), fa lr (персидский), fr (французкий), ru (русский), hu (венгерский).
 
-![](image-13.png)
+![](images/image-13.png)
 
 ## Первоначальная настройка и запуск
 ### автозагрузка
 
 > Settings → Option Setting → v2rayN setting → Start on boot (изменяется только при запуске *от администратора*), Geo files source (Подробнее в "Установка собственного ядра [Wiki#支持的核心列表](https://github.com/2dust/v2rayN/wiki/List-of-supported-cores)").
 
-![alt text](image-20.png)
+![](images/image-20.png)
 
 ### Выбор региональных пресетов
 
 > Settings → Regional presets setting
 
-![alt text](image-15.png)
+![](images/image-15.png)
 
 ### Настройка маршрутизации
 
 > Settings → Routing Settings → Rule
 
-![alt text](image-21.png)
+![](images/image-21.png)
 
 ### Выбор активного правила
 
 > Active rule set
 
-![](image-14.png)
+![](images/image-14.png)
 
 ### Включение
 
 > Tun и system proxy
 
-![alt text](image-19.png)
+![](images/image-19.png)
 
 # V2RayNG (Android)
 ## Отличия системных версий
