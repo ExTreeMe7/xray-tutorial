@@ -1,7 +1,9 @@
 # xray-tutorial
 Tutorial for xray desktop (windows 10+) and mobile (android) via V2RayN &amp; V2RayNG
 
-> **Полезные ссылки**: [H89K](https://t.me/h89k_bot), [Xray](https://github.com/XTLS/Xray-core), [V2Ray](https://github.com/v2fly/v2ray-core), [Vless](https://github.com/XTLS/Xray-core/discussions/3518), [V2RayN](https://github.com/2dust/v2rayN), [V2RayNG](https://github.com/2dust/v2rayNG)
+> **Полезные ссылки**: [H89K](https://t.me/h89k_bot), [Xray](https://github.com/XTLS/Xray-core), [V2Ray](https://github.com/v2fly/v2ray-core), [Vless](https://github.com/XTLS/Xray-core/discussions/3518), [V2RayN](https://github.com/2dust/v2rayN), [V2RayNG](https://github.com/2dust/v2rayNG).
+
+> **Навигация**: [Windows 10+](https://github.com/ExTreeMe7/xray-tutorial/blob/main/README.md#v2rayn-windows-10-wiki%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87), [Android](https://github.com/ExTreeMe7/xray-tutorial/blob/main/README.md#v2rayng-android).
 
 > **Навигация**: 
 
@@ -91,7 +93,7 @@ v2rayN позволяет персонализировать интерфейс 
 
 ![](images/image-3.png)
 
-* **Settings** - опции, маршрутизация, днс, конфигурация, горячие клавишы, инструменты, региональные пресеты, архивация и восстановление, локальные файлы.
+* **Settings** - опции, маршрутизация, расширенная конфигурация днс, конфигурация клиента, горячие клавишы, инструменты, региональные пресеты, архивация и восстановление, локальные файлы.
 
 ![](images/image-4.png)
 
@@ -131,19 +133,31 @@ v2rayN позволяет персонализировать интерфейс 
 
 > Settings → Option Setting → v2rayN setting → Start on boot (изменяется только при запуске *от администратора*), Geo files source (Подробнее в "Установка собственного ядра [Wiki#支持的核心列表](https://github.com/2dust/v2rayN/wiki/List-of-supported-cores)").
 
+<<<<<<< HEAD
 ![](images/image-20.png)
+=======
+![](image-20.png)
+>>>>>>> origin/main
 
 ### Выбор региональных пресетов
 
 > Settings → Regional presets setting
 
+<<<<<<< HEAD
 ![](images/image-15.png)
+=======
+![](image-15.png)
+>>>>>>> origin/main
 
 ### Настройка маршрутизации
 
 > Settings → Routing Settings → Rule
 
+<<<<<<< HEAD
 ![](images/image-21.png)
+=======
+![](image-21.png)
+>>>>>>> origin/main
 
 ### Выбор активного правила
 
@@ -155,7 +169,11 @@ v2rayN позволяет персонализировать интерфейс 
 
 > Tun и system proxy
 
+<<<<<<< HEAD
 ![](images/image-19.png)
+=======
+![](image-19.png)
+>>>>>>> origin/main
 
 # V2RayNG (Android)
 ## Отличия системных версий
