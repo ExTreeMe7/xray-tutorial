@@ -131,31 +131,19 @@ v2rayN позволяет персонализировать интерфейс 
 
 > Settings → Option Setting → v2rayN setting → Start on boot (изменяется только при запуске *от администратора*), Geo files source (Подробнее в "Установка собственного ядра [Wiki#支持的核心列表](https://github.com/2dust/v2rayN/wiki/List-of-supported-cores)").
 
-<<<<<<< HEAD
 ![](images/image-20.png)
-=======
-![](image-20.png)
->>>>>>> origin/main
 
 ### Выбор региональных пресетов
 
 > Settings → Regional presets setting
 
-<<<<<<< HEAD
 ![](images/image-15.png)
-=======
-![](image-15.png)
->>>>>>> origin/main
 
 ### Настройка маршрутизации
 
 > Settings → Routing Settings → Rule
 
-<<<<<<< HEAD
 ![](images/image-21.png)
-=======
-![](image-21.png)
->>>>>>> origin/main
 
 ### Выбор активного правила
 
@@ -167,11 +155,7 @@ v2rayN позволяет персонализировать интерфейс 
 
 > Tun и system proxy
 
-<<<<<<< HEAD
 ![](images/image-19.png)
-=======
-![](image-19.png)
->>>>>>> origin/main
 
 # V2RayNG (Android)
 ## Отличия системных версий
