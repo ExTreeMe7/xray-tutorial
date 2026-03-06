@@ -1,7 +1,9 @@
 # xray-tutorial
 Tutorial for xray desktop (windows 10+) and mobile (android) via V2RayN &amp; V2RayNG
 
-> **Полезные ссылки**: [H89K](https://t.me/h89k_bot), [Xray](https://github.com/XTLS/Xray-core), [V2Ray](https://github.com/v2fly/v2ray-core), [Vless](https://github.com/XTLS/Xray-core/discussions/3518), [V2RayN](https://github.com/2dust/v2rayN), [V2RayNG](https://github.com/2dust/v2rayNG)
+> **Полезные ссылки**: [H89K](https://t.me/h89k_bot), [Xray](https://github.com/XTLS/Xray-core), [V2Ray](https://github.com/v2fly/v2ray-core), [Vless](https://github.com/XTLS/Xray-core/discussions/3518), [V2RayN](https://github.com/2dust/v2rayN), [V2RayNG](https://github.com/2dust/v2rayNG).
+
+> **Навигация**: [Windows 10+](https://github.com/ExTreeMe7/xray-tutorial/blob/main/README.md#v2rayn-windows-10-wiki%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87), [Android](https://github.com/ExTreeMe7/xray-tutorial/blob/main/README.md#v2rayng-android).
 
 ## xray-core
 [**Xray**](https://github.com/XTLS/Xray-core) — это высокопроизводительный прокси-сервер и платформа для сетевой маршрутизации, форвардинга и обхода блокировок. Xray - форк проекта [V2Ray](https://github.com/v2fly/v2ray-core), с улучшенной архитектурой и новыми функциями для маршрутизации и безопасности.
@@ -89,7 +91,7 @@ v2rayN позволяет персонализировать интерфейс 
 
 ![](image-3.png)
 
-* **Settings** - опции, маршрутизация, днс, конфигурация, горячие клавишы, инструменты, региональные пресеты, архивация и восстановление, локальные файлы.
+* **Settings** - опции, маршрутизация, расширенная конфигурация днс, конфигурация клиента, горячие клавишы, инструменты, региональные пресеты, архивация и восстановление, локальные файлы.
 
 ![](image-4.png)
 
@@ -129,19 +131,19 @@ v2rayN позволяет персонализировать интерфейс 
 
 > Settings → Option Setting → v2rayN setting → Start on boot (изменяется только при запуске *от администратора*), Geo files source (Подробнее в "Установка собственного ядра [Wiki#支持的核心列表](https://github.com/2dust/v2rayN/wiki/List-of-supported-cores)").
 
-![alt text](image-20.png)
+![](image-20.png)
 
 ### Выбор региональных пресетов
 
 > Settings → Regional presets setting
 
-![alt text](image-15.png)
+![](image-15.png)
 
 ### Настройка маршрутизации
 
 > Settings → Routing Settings → Rule
 
-![alt text](image-21.png)
+![](image-21.png)
 
 ### Выбор активного правила
 
@@ -153,7 +155,7 @@ v2rayN позволяет персонализировать интерфейс 
 
 > Tun и system proxy
 
-![alt text](image-19.png)
+![](image-19.png)
 
 # V2RayNG (Android)
 ## Отличия системных версий
