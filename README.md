@@ -3,7 +3,7 @@ Tutorial for xray desktop (windows 10+) and mobile (android) via V2RayN &amp; V2
 
 * **Полезные ссылки**: [H89K](https://t.me/h89k_bot), [Xray](https://github.com/XTLS/Xray-core), [V2Ray](https://github.com/v2fly/v2ray-core), [Vless](https://github.com/XTLS/Xray-core/discussions/3518), [V2RayN](https://github.com/2dust/v2rayN), [V2RayNG](https://github.com/2dust/v2rayNG).
 
-* **Навигация**: [Windows 10+](https://github.com/ExTreeMe7/xray-tutorial/blob/main/README.md#v2rayn-windows-10-wiki%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87) and [FAQ](), [Android](https://github.com/ExTreeMe7/xray-tutorial/blob/main/README.md#v2rayng-android).
+* **Навигация**: [Windows 10+](https://github.com/ExTreeMe7/xray-tutorial/blob/main/README.md#v2rayn-windows-10-wiki%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87) and [FAQ](https://github.com/ExTreeMe7/xray-tutorial/blob/main/README.md#faq-wiki%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98), [Android](https://github.com/ExTreeMe7/xray-tutorial/blob/main/README.md#v2rayng-android).
 
 ## xray-core
 [**Xray**](https://github.com/XTLS/Xray-core) — это высокопроизводительный прокси-сервер и платформа для сетевой маршрутизации, форвардинга и обхода блокировок. Xray - форк проекта [V2Ray](https://github.com/v2fly/v2ray-core), с улучшенной архитектурой и новыми функциями для маршрутизации и безопасности.
