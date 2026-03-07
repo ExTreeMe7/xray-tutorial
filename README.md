@@ -104,7 +104,23 @@ netsh int tcp set supplemental template=Datacentercustom congestionprovider=CUBI
 * `v2rayN-windows-arm64.zip` WPF, стандарт UI.
 * `v2rayN-windows-arm64-desktop.zip` Avalonia UI, всё так же легковесный UI.
 ### Установка собственного ядра [Wiki#支持的核心列表](https://github.com/2dust/v2rayN/wiki/List-of-supported-cores)
-Так же можете найти GEO-файлы используемые ядром для продвинутой маршрутизации. Например: [Sing-Box](https://github.com/2dust/sing-box-rules), [V2ray-Rules](https://github.com/Loyalsoldier/v2ray-rules-dat), [Russia](https://github.com/runetfreedom/russia-v2ray-rules-dat), [Iran](https://github.com/Chocolate4U/Iran-v2ray-rules)
+* [Xray core](https://github.com/XTLS/Xray-core/releases),
+* [V2Fly core](https://github.com/v2fly/v2ray-core/releases),
+* [mihomo core](https://github.com/MetaCubeX/mihomo/releases),
+* [sing_box core](https://github.com/SagerNet/sing-box/releases),
+* [hysteria2 core](https://github.com/apernet/hysteria/releases),
+* [naiveproxy core](https://github.com/klzgrad/naiveproxy/releases),
+* [tuic core](https://github.com/EAimTY/tuic/releases),
+* [juicity core](https://github.com/juicity/juicity/releases),
+* [brook core](https://github.com/txthinking/brook/releases),
+* [overtls core](https://github.com/ShadowsocksR-Live/overtls/releases),
+* [shadowquic core](https://github.com/spongebob888/shadowquic).
+
+Так же можете найти GEO-файлы используемые ядром для продвинутой маршрутизации.
+* [Sing-Box](https://github.com/2dust/sing-box-rules),
+* [V2ray-Rules](https://github.com/Loyalsoldier/v2ray-rules-dat),
+* [Russia](https://github.com/runetfreedom/russia-v2ray-rules-dat),
+* [Iran](https://github.com/Chocolate4U/Iran-v2ray-rules).
 
 ## Установка приложения
 V2RayN - прокси-клиент для Windows https://github.com/2dust/v2rayN/releases/latest
