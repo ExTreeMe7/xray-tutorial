@@ -1,5 +1,8 @@
 # xray-tutorial
-Tutorial for xray desktop (windows 10+) and mobile (android) via V2RayN &amp; V2RayNG
+*Tutorial for xray desktop (windows 10+) and mobile (android) via V2RayN &amp; V2RayNG*
+
+*Инструкция по использованию программы Xray для компьютеров (Windows 10+) и мобильных устройств (Android) через V2RayN и V2RayNG.*
+
 
 * **Полезные ссылки**: [H89K](https://t.me/h89k_bot), [Xray](https://github.com/XTLS/Xray-core), [V2Ray](https://github.com/v2fly/v2ray-core), [Vless](https://github.com/XTLS/Xray-core/discussions/3518), [V2RayN](https://github.com/2dust/v2rayN), [V2RayNG](https://github.com/2dust/v2rayNG).
 
@@ -15,11 +18,11 @@ Tutorial for xray desktop (windows 10+) and mobile (android) via V2RayN &amp; V2
 Часто применяется в сочетании с клиентами вроде v2rayNG, для безопасного и приватного интернет-трафика.
 
 ### Ссылки доступа
-[**Share Link**](github.com/XTLS/Xray-core/discussions/716) - ссылка с конфигурацией подключения, которую можно импортировать в прокси-клиент одним нажатием.
+[**Share Link**](github.com/XTLS/Xray-core/discussions/716) — ссылка с конфигурацией подключения, которую можно импортировать в прокси-клиент одним нажатием.
 
 > **Пример**: *`vless://8484dff8-9625-413e-a69c-8c28bbab5754@65.188.99.72:18888?security=reality&sni=yahoo.com&fp=chrome&pbk=96QLh7iaC7AFShzTeeBFSSvR80sFTGkGEtHs_yHZXEk&sid=ddw61fd59cc4caf2&type=tcp&encryption=none&flow=xtls-rprx-vision#H89K-fxinstasmx` эта ссылка не рабочая и подключиться по ней нельзя*.
 
-Share Link состоит из 8 частей:
+**Share Link** состоит из 8 частей:
 
 `protocol`://`uuid`@`remote-host`:`remote-port`?`protocol-specific fields` `transport-specific fields` `tls-specific fields`#`descriptive-text`
 
@@ -32,12 +35,20 @@ Share Link состоит из 8 частей:
 * `tls-specific fields` - специальный сегмент (подробнее [Share Link](https://github.com/XTLS/Xray-core/discussions/716)) указывающий параметры tls-шифрования,
 * `descriptive-text` - необязательный сегмент с пустым указанием, является описанием.
 
-## 2dust
+## Основные прокси-клиенты
 **V2RayN** и **V2RayNG** — это клиентские приложения для работы с платформой Xray/V2Ray, используемой для проксирования и обхода сетевых ограничений. Оба приложения являются интерфейсами для ядра Xray/V2Ray и используются для настройки и использования прокси‑соединений.
 
 [**V2RayN**](https://github.com/2dust/v2rayN) — клиент для Windows. Он предоставляет графический интерфейс для управления прокси‑подключениями (VLESS, VMess, Trojan и др.), настройки маршрутизации трафика и подключения к серверам Xray/V2Ray.
 
 [**V2RayNG**](https://github.com/2dust/v2rayNG) — аналогичный клиент для Android. Он позволяет подключаться к серверам Xray/V2Ray со смартфона, импортировать конфигурации через ссылки или QR‑коды и управлять прокси‑соединением.
+
+### Другие прокси-клиенты
+
+**Nekoray** и **Nekobox** — клиентские приложения для работы с прокси-платформами Xray, V2Ray и [Sing-box](https://github.com/SagerNet/sing-box), используемыми для проксирования трафика и обхода сетевых ограничений. Оба приложения предоставляют графический интерфейс для настройки прокси-подключений и управления сетевой маршрутизацией.
+
+[**Nekoray**](https://github.com/Matsuridayo/nekoray) — клиент для Windows и Linux. Он предоставляет графический интерфейс для управления прокси-соединениями (VLESS, VMess, Trojan, Shadowsocks и др.), поддерживает ядра Xray и Sing-box, настройку маршрутизации трафика, правила проксирования и импорт конфигураций.
+
+[**Nekobox**](https://github.com/MatsuriDayo/NekoBoxForAndroid) — клиент для Android. Он основан на тех же технологиях и поддерживает ядра Xray и Sing-box, позволяя подключаться к прокси-серверам со смартфона, импортировать конфигурации через ссылки или QR-коды и управлять прокси-соединением.
 
 # V2RayN (Windows 10+) [Wiki#简体中文](https://github.com/2dust/v2rayN/wiki)
 ## FAQ ([Wiki#常见问题](https://github.com/2dust/v2rayN/wiki/Faq))
@@ -122,16 +133,16 @@ netsh int tcp set supplemental template=Datacentercustom congestionprovider=CUBI
 * `v2rayN-windows-arm64.zip` WPF, стандарт UI.
 * `v2rayN-windows-arm64-desktop.zip` Avalonia UI, всё так же легковесный UI.
 ### Установка собственного ядра [Wiki#支持的核心列表](https://github.com/2dust/v2rayN/wiki/List-of-supported-cores)
-* [Xray core](https://github.com/XTLS/Xray-core/releases),
-* [V2Fly core](https://github.com/v2fly/v2ray-core/releases),
-* [mihomo core](https://github.com/MetaCubeX/mihomo/releases),
-* [sing_box core](https://github.com/SagerNet/sing-box/releases),
-* [hysteria2 core](https://github.com/apernet/hysteria/releases),
-* [naiveproxy core](https://github.com/klzgrad/naiveproxy/releases),
-* [tuic core](https://github.com/EAimTY/tuic/releases),
-* [juicity core](https://github.com/juicity/juicity/releases),
-* [brook core](https://github.com/txthinking/brook/releases),
-* [overtls core](https://github.com/ShadowsocksR-Live/overtls/releases),
+* [Xray core](https://github.com/XTLS/Xray-core),
+* [V2Fly core](https://github.com/v2fly/v2ray-core),
+* [mihomo core](https://github.com/MetaCubeX/mihomo),
+* [sing_box core](https://github.com/SagerNet/sing-box),
+* [hysteria2 core](https://github.com/apernet/hysteria),
+* [naiveproxy core](https://github.com/klzgrad/naiveproxy),
+* [tuic core](https://github.com/EAimTY/tuic),
+* [juicity core](https://github.com/juicity/juicity),
+* [brook core](https://github.com/txthinking/brook),
+* [overtls core](https://github.com/ShadowsocksR-Live/overtls),
 * [shadowquic core](https://github.com/spongebob888/shadowquic).
 
 Так же можете найти GEO-файлы используемые ядром для продвинутой маршрутизации.
@@ -154,6 +165,8 @@ V2RayN - прокси-клиент для Windows https://github.com/2dust/v2ray
 v2rayN позволяет персонализировать интерфейс и настроить необходимую конфигурацию:
 
 ![](images/image.png)
+
+> Версия приложения: V7.18.0
 
 ## Описание функций и кнопок
 Горячие клавиши:
@@ -189,7 +202,7 @@ v2rayN позволяет персонализировать интерфейс 
 
 ![](images/image-18.png)
 
-> Все правила редактируются в **Settings** → **Routing Setting**.
+> Правила маршрутизации редактируются в **Settings** → **Routing Setting**.
 
 ### **Configuration**
 Добавление сервера:
@@ -201,6 +214,20 @@ v2rayN позволяет персонализировать интерфейс 
 ![](images/image-2.png)
 
 > Используйте *CTRL + V* для вставки **Share Link**.
+![](images/image-24.png)
+
+#### **Policy Group**
+Конфигурация групповой политики:
+* **Название** (`Alias (remarks)`),
+* **Используемое ядро** (`Core type`: `Xray`, `sing_box`),
+* **Используемая политика** (`Policy Group Type`: `Lowest Latency` - минимальная задержка, `Fallback` - резервный путь, `Random` - случайный, `Round Robin` - сбалансированный, `Most Stable` - меньшая нагрузка) - балансный режим ядра, выбирает прокси согласно выбранной политики и может использовать несколько подключений одновременно;
+* **Группа подписок** (`Subscription Group`),
+* **Название фильтра** (`Remarks regular filter`).
+
+![](images/image-23.png)
+
+#### **Proxy Chain**
+Цепочка прокси. Использует подключения в выбранных группах или списке, как последовательность прокси-серверов, через которые проходит один и тот же запрос перед достижением целевого сервера.
 
 ### **Subscription Group**
 Управление подписками:
@@ -210,6 +237,19 @@ v2rayN позволяет персонализировать интерфейс 
 ![](images/image-3.png)
 
 #### **Subscription Group Settings**
+
+Редактирование групп:
+* **Название** (`Remarks`),
+* **Ссылка подписки** (`URL (optional)`),
+* **Включение обновления подписки** и **Интервал обновления** (`Enable update` и `Automatic update interval (minutes)`, время указано в минутах),
+* **Название фильтра** (`Remarks regular filter`),
+* **Конвертация вида подписок** (`Convert target type`),
+* **Идентификатор клиента** (`User Agent`),
+* **Сортировка** (`Sort`),
+* `Previous proxy remarks`,
+* `Next proxy remarks`,
+* `Custom config socks port`,
+* `Remarks Memo`.
 
 ![](images/image-22.png)
 
@@ -308,7 +348,7 @@ v2rayN позволяет персонализировать интерфейс 
 ![](images/image-21.png)
 
 Настройки можно редактировать вручную:
-* **Описание** (`Remarks`),
+* **Название** (`Remarks`),
 * **Активность текущего правила** (`On`/`Off`),
 * **Тип правила** (`Rule Type`: `ALL` - маршрутизация и ДНС, `Routing` - только маршрутизация, `DNS` - только ДНС),
 * **Исходящий трафик** (`outboundTag`: `proxy` - перенаправляет трафик через прокси-сервер/IP-адреса прокси, `direct` - принимает трафик напрямую с локального клиента/IP-адреса устройства, `block` - блокирует трафик, `Select Profile` - указать другой сервер/конфигурацию),
