@@ -159,12 +159,12 @@ V2RayN - прокси-клиент для Windows https://github.com/2dust/v2ray
 
 Запустите программу *от имени администратора* с помощью файла `v2rayN.exe`, после запуска иконка v2rayN появится в системном трее:
 
-![](images/image-1.png)
+<img src="images/image-1.png" width="50%">
 
 ## Настройки программы
 v2rayN позволяет персонализировать интерфейс и настроить необходимую конфигурацию:
 
-![](images/image.png)
+<img src="images/image.png" width="80%">
 
 > Версия программы: V7.18.0
 
@@ -184,7 +184,7 @@ v2rayN позволяет персонализировать интерфейс 
 ### **Enable Tun**
 Виртуальный сетевой фильтр для перехвата всего трафика:
 
-![](images/image-16.png)
+<img src="images/image-16.png" width="20%">
 
 > Нужен чтобы перехватывать и направлять весь сетевой трафик системы через прокси или VPN, даже от тех программ, которые сами не поддерживают работу через прокси.
 
@@ -195,12 +195,12 @@ v2rayN позволяет персонализировать интерфейс 
 * **Do not change system proxy** - не изменять системный прокси, автономный режим проксирования который не устанавливается во всей системе а используется при конкретной настройке программ на использование прокси, например через указание прокси по localhost:mixed-port - `127.0.0.1:10808` в настройках Windows, этот режим требует более пренудительной настройки и не рекомендован,
 * **PAC Mode** - прокси авто-конфигурация, использование скрипта авто-конфигурации, который управляет маршрутизацией.
 
-![](images/image-17.png)
+<img src="images/image-17.png" width="30%">
 
 ### **Active rule set**
 Выбор активного правила маршрутизации:
 
-![](images/image-18.png)
+<img src="images/image-18.png" width="30%">
 
 > Правила маршрутизации редактируются в **Settings** → **Routing Setting**.
 
@@ -211,10 +211,11 @@ v2rayN позволяет персонализировать интерфейс 
 * **Ручное добавление конфигурации**, групповых политик, цепочек прокси, протоколов.
 > Поддерживаемые протоколы: `VMess`, `VLESS`, `Shadowsocks`, `Trojan`, `Hysteria2`, `WireGuard`, `SOCKS5`, `HTTP`, `TUIC`, `Anytls`.
 
-![](images/image-2.png)
+<img src="images/image-2.png" width="35%">
 
 > Используйте *CTRL + V* для вставки **Share Link**.
-![](images/image-24.png)
+
+<img src="images/image-24.png" width="60%">
 
 #### **Policy Group**
 Конфигурация групповой политики:
@@ -224,7 +225,7 @@ v2rayN позволяет персонализировать интерфейс 
 * **Группа подписок** (`Subscription Group`),
 * **Название фильтра** (`Remarks regular filter`).
 
-![](images/image-23.png)
+<img src="images/image-23.png" width="80%">
 
 #### **Proxy Chain**
 Цепочка прокси. Использует подключения в выбранных группах или списке, как последовательность прокси-серверов, через которые проходит один и тот же запрос перед достижением целевого сервера.
@@ -234,7 +235,7 @@ v2rayN позволяет персонализировать интерфейс 
 * **Настройка подписок**,
 * **Обновление всех**/**текущей подписки** с помощью прокси и без.
 
-![](images/image-3.png)
+<img src="images/image-3.png" width="35%">
 
 #### **Subscription Group Settings**
 
@@ -251,54 +252,54 @@ v2rayN позволяет персонализировать интерфейс 
 * `Custom config socks port`,
 * `Remarks Memo`.
 
-![](images/image-22.png)
+<img src="images/image-22.png" width="80%">
 
 ### **Settings**
 Основные настройки:
 * **Опции**, **маршрутизация**, **расширенная конфигурация днс**, **конфигурация клиента**, **горячие клавишы**, **инструменты**, **региональные пресеты**, **архивация и восстановление**, **локальные файлы**.
 
-![](images/image-4.png)
+<img src="images/image-4.png" width="30%">
 
 #### **Option Setting**
 Основные настройки:
 
-![](images/image-5.png)
+<img src="images/image-5.png" width="80%">
 
 * **Core: basic settings**: установка микс-порта, переключение UDP, Sniffing, изменение логирования;
 
-![](images/image-6.png)
+<img src="images/image-6.png" width="80%">
 
 * **v2rayN settings**: настройки программы, автозагрузка, отображение скорости передачи, компоновка UI, дабл-клик для активации, источник Geo-файлов;
 > По умолчанию Geo-фалы не обновляются автоматически. Установите необходимое значение (часы) в поле **Automatic update interval for Geo files (hours)**, например `5`.
 
-![](images/image-7.png)
+<img src="images/image-7.png" width="80%">
 
 * **System proxy settings** - изменение IP для локальных устройств;
 
-![](images/image-8.png)
+<img src="images/image-8.png" width="80%">
 
 * **Tun Mode settings**;
 
-![](images/image-9.png)
+<img src="images/image-9.png" width="80%">
 
 * **Core Type settings**.
 
 ### **Routing Setting**
 Настройка маршрутизации:
 
-![](images/image-10.png)
+<img src="images/image-10.png" width="80%">
 
 * **Domain strategy**: `AsIs` - маршрутизация только по *domain* и *geosite* без DNS; `IPIfNonMatch` - *domain*/*geosite* маршрутизация с fallback в DNS *ip*/*geoip*; `IPOnDemand` - *ip/geoip* всегда в DNS.
 
 ### **Help**
 Обновление программ, ссылки:
 
-![](images/image-11.png)
+<img src="images/image-11.png" width="20%">
 
 #### **Check Update**
 Проверка обновлений:
 
-![](images/image-12.png)
+<img src="images/image-12.png" width="60%">
 
 * **V2RayN** - программа-интерфейс,
 * **Xray** - xray-ядро,
@@ -319,7 +320,7 @@ v2rayN позволяет персонализировать интерфейс 
 ### **⋮**
 Изменение темы UI, шрифта, языка.
 
-![](images/image-13.png)
+<img src="images/image-13.png" width="40%">
 
 > Поддерживаемые языки: zh-Hans (упрощенный китайский язык) zh-Hant (традиционный китайский язык), en (английский), fa lr (персидский), fr (французкий), ru (русский), hu (венгерский).
 
@@ -328,7 +329,7 @@ v2rayN позволяет персонализировать интерфейс 
 ### Автозагрузка и Geo-файлы
 #### **Settings** → **Option Setting** → **v2rayN setting** → **Start on boot** (изменяется только при запуске *от администратора*), **Geo files source** (Подробнее в "[**Установка собственного ядра**](https://github.com/ExTreeMe7/xray-tutorial/blob/main/README.md#%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0-%D1%81%D0%BE%D0%B1%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE-%D1%8F%D0%B4%D1%80%D0%B0-wiki%E6%94%AF%E6%8C%81%E7%9A%84%E6%A0%B8%E5%BF%83%E5%88%97%E8%A1%A8)").
 
-![](images/image-20.png)
+<img src="images/image-20.png" width="80%">
 
 * **Russia** - https://github.com/runetfreedom/russia-v2ray-rules-dat
 * **Iran** - https://github.com/runetfreedom/russia-v2ray-rules-dat
@@ -336,7 +337,7 @@ v2rayN позволяет персонализировать интерфейс 
 ### Выбор региональных пресетов
 #### **Settings** → **Regional presets setting**
 
-![](images/image-15.png)
+<img src="images/image-15.png" width="50%">
 
 * **Default** - устанавливает и обновляет правила по умолчанию для Китая,
 * **Russia** - устанавливает правила для России,
@@ -345,7 +346,7 @@ v2rayN позволяет персонализировать интерфейс 
 ### Настройка маршрутизации
 ### **Settings** → **Routing Settings** → **Rule**
 
-![](images/image-21.png)
+<img src="images/image-21.png" width="80%">\
 
 Настройки можно редактировать вручную:
 * **Название** (`Remarks`),
@@ -364,7 +365,7 @@ v2rayN позволяет персонализировать интерфейс 
 
 #### **Active rule set**
 
-![](images/image-14.png)
+<img src="images/image-14.png" width="70%">
 
 **Предустановленные правила** (Региональный пресет - `Default`, набор правил GeoIP/GeoSite - [Loyalsoldier/v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat)):
 * `V4-绕过大陆(Whitelist)`
@@ -554,7 +555,7 @@ v2rayN позволяет персонализировать интерфейс 
 
 #### **Tun** и **system proxy**
 
-![](images/image-19.png)
+<img src="images/image-19.png" width="70%">
 
 # V2RayNG (Android)
 ## FAQ
@@ -580,5 +581,5 @@ V2RayNG - прокси-клиент для Android https://github.com/2dust/v2ra
 ## Настройки приложения
 v2rayNG предоставляет практически идентичные возможности схожие с его версией для компьютера (v2rayN):
 
-![](images/image-25.png)
+<img src="images/image-25.png" width="30%">
 
