@@ -579,7 +579,33 @@ V2RayNG - прокси-клиент для Android https://github.com/2dust/v2ra
 После запуска приложение покажет уведомление.
 
 ## Настройки приложения
-v2rayNG предоставляет практически идентичные возможности схожие с его версией для компьютера (v2rayN):
+v2rayNG предоставляет практически идентичные возможности схожие с его версией для компьютера (v2rayN).
 
+### Профили
 <img src="images/image-25.png" width="30%">
+<img src="images/image-29.jpg" width="30%">
 
+<img src="images/image-27.jpg" width="30%">
+<img src="images/image-28.jpg" width="30%">
+
+### Меню
+<img src="images/image-30.jpg" width="30%">
+
+### Группы
+<img src="images/image-26.jpg" width="30%">
+<img src="images/image-31.jpg" width="30%">
+
+### Выбор приложения
+<img src="images/image-32.jpg" width="30%">
+
+### Маршрутизация
+<img src="images/image-33.jpg" width="30%">
+<img src="images/image-34.jpg" width="30%">
+<img src="images/image-35.jpg" width="30%">
+
+### Файлы ресурсов
+<img src="images/image-36.jpg" width="30%">
+<img src="images/image-37.jpg" width="30%">
+
+### Журнал
+<img src="images/image-38.jpg" width="30%">
