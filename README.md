@@ -18,7 +18,7 @@
 Часто применяется в сочетании с клиентами вроде v2rayNG, для безопасного и приватного интернет-трафика.
 
 ### Ссылки доступа
-[**Share Link**](github.com/XTLS/Xray-core/discussions/716) — ссылка с конфигурацией подключения, которую можно импортировать в прокси-клиент одним нажатием.
+[**Share Link**](https://github.com/XTLS/Xray-core/discussions/716) — ссылка с конфигурацией подключения, которую можно импортировать в прокси-клиент одним нажатием.
 
 > **Пример**: *`vless://8484dff8-9625-413e-a69c-8c28bbab5754@65.188.99.72:18888?security=reality&sni=yahoo.com&fp=chrome&pbk=96QLh7iaC7AFShzTeeBFSSvR80sFTGkGEtHs_yHZXEk&sid=ddw61fd59cc4caf2&type=tcp&encryption=none&flow=xtls-rprx-vision#H89K-fxinstasmx` эта ссылка не рабочая и подключиться по ней нельзя*.
 
